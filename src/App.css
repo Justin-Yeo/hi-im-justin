@@ -77,9 +77,14 @@ a:hover {
   width: 100%;
 }
 
+.section-title {
+  padding-left: 1rem;
+}
+
 /* Hero Section */
 .terminal-hero {
-  padding: 6rem 0;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
@@ -104,6 +109,10 @@ a:hover {
 }
 
 /* Projects Section */
+#projects {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -180,6 +189,11 @@ a:hover {
 }
 
 /* Experience Section */
+#experience {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .experience-grid {
   display: grid;
   gap: 2rem;
@@ -226,6 +240,11 @@ a:hover {
 }
 
 /* Skills Section */
+#skills {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+ 
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
