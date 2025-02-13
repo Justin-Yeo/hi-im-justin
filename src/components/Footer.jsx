@@ -26,9 +26,6 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <p className="footer-copyright">
-          &gt; console.log("© 2023 Your Name. All rights reserved.");
-        </p>
       </div>
     </footer>
   );
