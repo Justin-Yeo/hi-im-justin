@@ -1,0 +1,30 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { projects, experience } from './data';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
+import './App.css';
+
+function App() {
+  return (
+    <Router>
+      <div className="terminal-theme">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <Projects projects={projects} />
+              <Experience experience={experience} />
+            </>
+          } />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+
+export default App;
