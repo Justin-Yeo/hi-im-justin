@@ -21,8 +21,8 @@ export default function Footer() {
             >
               &gt; linkedin
             </a>
-            <a href="justinyeojc@u.nus.edu" className="social-link">
-              &gt; email
+            <a className="social-link">
+              &gt; email:justinyeojc@u.nus.edu
             </a>
           </div>
         </div>

@@ -3,9 +3,9 @@
       {
         title: "Programming Languages",
         skills: [
-          { name: 'Python', logo: '/logos/python.svg' },
           { name: 'JavaScript', logo: '/logos/javascript.svg' },
           { name: 'TypeScript', logo: '/logos/typescript.svg' },
+          { name: 'Python', logo: '/logos/python.svg' },
           { name: 'Java', logo: '/logos/java.svg' },
           { name: 'C#', logo: '/logos/csharp.svg' },
           { name: 'HTML', logo: '/logos/html.svg' },
@@ -32,7 +32,7 @@
     ];
   
     return (
-      <section className="terminal-section">
+      <section className="terminal-section" id="skills">
         <h3 className="section-title">$ ls skills/</h3>
         <div className="skills-container">
           {skillCategories.map((category, index) => (

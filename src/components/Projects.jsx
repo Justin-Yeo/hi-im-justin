@@ -1,21 +1,28 @@
 export default function Projects({ projects }) {
-    return (
-      <section className="terminal-section">
-        <h3 className="section-title">$ Projects</h3>
-        <div className="projects-grid">
-          {projects.map((project, index) => (
-            <div key={index} className="code-card">
-              <pre className="project-pre">
-                <code>
-                  {`{\n  title: "${project.title}",\n  tech: "${project.tech}",\n  desc: "${project.description}"\n}`}
-                </code>
-              </pre>
-              <a href={project.github} className="github-link">
-                &gt; git clone {project.github}
+  return (
+    <section id="projects" className="terminal-section">
+      <h3 className="section-title">$ cat projects.json</h3>
+      <div className="projects-grid">
+        {projects.map((project, index) => (
+          <div key={index} className="code-card">
+            <div className="card-content">
+              <h4 className="project-title">{project.title}</h4>
+              <p className="project-tech">{project.tech}</p>
+              <div className="project-description">
+                <p>{project.description}</p>
+              </div>
+            </div>
+            <div className="card-footer">
+              <a href={project.github} 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-link">
+                &gt; View on GitHub
               </a>
             </div>
-          ))}
-        </div>
-      </section>
-    );
-  }
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}

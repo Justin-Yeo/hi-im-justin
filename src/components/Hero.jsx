@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-      <section className="terminal-hero">
+      <section className="terminal-hero" id="home">
         <div className="glowing-text">
           <h1 className="hero-title">&gt; hi im justin</h1>
           <h2 className="hero-subtitle">// Y2 NUS Computer Science</h2>

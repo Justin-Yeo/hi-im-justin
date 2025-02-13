@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function Experience({ experience }) {
   return (
-    <section className="terminal-section">
+    <section className="terminal-section" id="experience">
       <h3 className="section-title">My Experience</h3>
       <div className="experience-grid">
         {experience.map((exp, index) => (
