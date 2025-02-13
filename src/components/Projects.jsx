@@ -1,7 +1,7 @@
 export default function Projects({ projects }) {
   return (
     <section id="projects" className="terminal-section">
-      <h3 className="section-title">$ cat projects.json</h3>
+      <h3 className="section-title">Projects</h3>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div key={index} className="code-card">

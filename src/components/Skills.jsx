@@ -33,7 +33,7 @@
   
     return (
       <section className="terminal-section" id="skills">
-        <h3 className="section-title">$ ls skills/</h3>
+        <h3 className="section-title">Skills</h3>
         <div className="skills-container">
           {skillCategories.map((category, index) => (
             <div key={index} className="skill-category">
