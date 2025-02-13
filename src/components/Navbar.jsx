@@ -6,9 +6,9 @@ export default function Navbar() {
     <nav className="terminal-nav">
       <div className="nav-brand">$ cd ~/justin-portfolio</div>
       <div className="nav-links">
-        <Link to="/" className="nav-link">$cd ~/home</Link>
-        <Link to="/" className="nav-link">projects.txt</Link>
-        <Link to="/" className="nav-link">experience.txt</Link>
+        <a href="/#projects" className="nav-link">projects</a>
+        <a href="/#experience" className="nav-link">experience</a>
+        <a href="/#skills" className="nav-link">skills</a>
       </div>
     </nav>
   );
