@@ -108,6 +108,11 @@ a:hover {
   opacity: 0.9;
 }
 
+.my-face {
+  border-radius: 50%;
+  height: 250px;
+}
+
 /* Projects Section */
 #projects {
   padding-top: 2rem;
