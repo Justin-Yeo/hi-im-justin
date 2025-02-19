@@ -1,6 +1,12 @@
 export const projects = [
   {
-    "title": "Loudest Wins Telegram Bot",
+    "title": "MindfulBrowsing Chrome Extension",
+    "tech": "JavaScript • HTML CSS",
+    "description": "Built a Chrome extension to help users stay focused by introduciing a wait time or challenge on blocked websites.",
+    "github": "https://github.com/Justin-Yeo/MindfulBrowsing"
+  },
+  {
+    "title": "LoudestWins Telegram Bot",
     "tech": "Python • Telegram API",
     "description": "Developed a bot for interactive group games where users compete based on the volume of their voice, utilizing audio input processing and real-time scoring.",
     "github": "https://github.com/Justin-Yeo/hacknroll2025"
@@ -18,16 +24,16 @@ export const projects = [
     github: "https://github.com/Capt-Tech/mass-recruitment-bot"
   },
   {
-    title: "The Last Knight (2D RPG Game)",
-    tech: "Unity • C#",
-    description: "Developed a top-down RPG with AI-driven enemies and combat mechanics.",
-    github: "https://github.com/Justin-Yeo/The-Last-Knight"
-  },
-  {
     title: "ContactsForGood (CFG)",
     tech: "Java • JavaFX",
     description: "Built an NGO-focused contact management app with tracking and reminders.",
     github: "https://github.com/Justin-Yeo/tp"
+  },
+  {
+    title: "The Last Knight (2D RPG Game)",
+    tech: "Unity • C#",
+    description: "Developed a top-down RPG with AI-driven enemies and combat mechanics.",
+    github: "https://github.com/Justin-Yeo/The-Last-Knight"
   }
 ];
 
