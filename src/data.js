@@ -2,7 +2,7 @@ export const projects = [
   {
     "title": "GreenKaki iOS app",
     "tech": "Swift • SwiftUI • Core ML • Vision",
-    "description": "Developed an interactive recycling education app featuring an AI-powered chatbot, a fun sorting game, and image recognition for waste classification.",
+    "description": "Developed an interactive recycling education app for the Apple Swift Student Challenge, featuring an AI-powered chatbot, a fun sorting game, and image recognition for waste classification.",
     "github": "https://github.com/Justin-Yeo/GreenKaki"
   },
   {

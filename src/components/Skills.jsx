@@ -6,6 +6,7 @@
           { name: 'JavaScript', logo: '/logos/javascript.svg' },
           { name: 'TypeScript', logo: '/logos/typescript.svg' },
           { name: 'Python', logo: '/logos/python.svg' },
+          { name: 'Swift', logo: '/logos/swift.svg' },
           { name: 'Java', logo: '/logos/java.svg' },
           { name: 'C#', logo: '/logos/csharp.svg' },
           { name: 'HTML', logo: '/logos/html.svg' },
