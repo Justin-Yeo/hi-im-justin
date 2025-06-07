@@ -3,11 +3,13 @@ import { useState } from 'react';
 export default function Experience({ experience }) {
   return (
     <section className="terminal-section" id="experience">
-      <h3 className="section-title">My Experience</h3>
-      <div className="experience-grid">
-        {experience.map((exp, index) => (
-          <ExperienceCard key={index} exp={exp} />
-        ))}
+      <div className="container">
+        <h3 className="section-title">My Experience</h3>
+        <div className="experience-grid">
+          {experience.map((exp, index) => (
+            <ExperienceCard key={index} exp={exp} />
+          ))}
+        </div>
       </div>
     </section>
   );

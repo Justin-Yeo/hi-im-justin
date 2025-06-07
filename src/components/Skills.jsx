@@ -34,28 +34,30 @@
   
     return (
       <section className="terminal-section" id="skills">
-        <h3 className="section-title">Skills</h3>
-        <div className="skills-container">
-          {skillCategories.map((category, index) => (
-            <div key={index} className="skill-category">
-              <h4 className="category-title">
-                &gt; {category.title}
-              </h4>
-              <div className="skills-grid">
-                {category.skills.map((skill, idx) => (
-                  <div key={idx} className="skill-card">
-                    <img 
-                      src={skill.logo} 
-                      alt={skill.name} 
-                      className="skill-logo"
-                      loading="lazy"
-                    />
-                    <p className="skill-name">{skill.name}</p>
-                  </div>
-                ))}
+        <div className="container">
+          <h3 className="section-title">Skills</h3>
+          <div className="skills-container">
+            {skillCategories.map((category, index) => (
+              <div key={index} className="skill-category">
+                <h4 className="category-title">
+                  &gt; {category.title}
+                </h4>
+                <div className="skills-grid">
+                  {category.skills.map((skill, idx) => (
+                    <div key={idx} className="skill-card">
+                      <img 
+                        src={skill.logo} 
+                        alt={skill.name} 
+                        className="skill-logo"
+                        loading="lazy"
+                      />
+                      <p className="skill-name">{skill.name}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
     );
