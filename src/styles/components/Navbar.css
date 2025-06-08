@@ -1,0 +1,38 @@
+.terminal-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5%;
+  border-bottom: 1px solid var(--terminal-border);
+}
+
+.nav-brand {
+  color: var(--terminal-green);
+  text-shadow: 0 0 8px rgba(0, 255, 157, 0.3);
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: var(--terminal-text);
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--terminal-green);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+} 

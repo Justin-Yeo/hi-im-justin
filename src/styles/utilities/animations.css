@@ -1,0 +1,9 @@
+@keyframes glow {
+  0% { text-shadow: 0 0 5px var(--terminal-green); }
+  50% { text-shadow: 0 0 20px var(--terminal-green); }
+  100% { text-shadow: 0 0 5px var(--terminal-green); }
+}
+
+.glow-text {
+  animation: glow 2s infinite;
+} 

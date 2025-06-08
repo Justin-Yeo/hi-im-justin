@@ -1,0 +1,13 @@
+@import './variables.css';
+
+@import './globals.css';
+
+@import './components/Navbar.css';
+@import './components/Hero.css';
+@import './components/Projects.css';
+@import './components/Experience.css';
+@import './components/Skills.css';
+@import './components/Footer.css';
+
+@import './utilities/animations.css';
+@import './utilities/responsive.css'; 

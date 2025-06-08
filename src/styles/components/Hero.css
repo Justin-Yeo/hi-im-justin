@@ -1,0 +1,30 @@
+.terminal-hero {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--terminal-green);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px rgba(0, 255, 157, 0.3);
+}
+
+.hero-subtitle {
+  color: var(--terminal-text);
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.hero-description {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.my-face {
+  border-radius: 50%;
+  height: 250px;
+} 
