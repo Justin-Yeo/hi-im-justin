@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { projects, experience } from './data';
+import { ThemeProvider } from './contexts/ThemeContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -10,22 +11,24 @@ import './styles/main.css';
 
 function App() {
   return (
-    <Router>
-      <div className="terminal-theme">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={
-            <>
-              <Hero />
-              <Projects projects={projects} />
-              <Experience experience={experience} />
-              <Skills />
-            </>
-          } />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <div className="terminal-theme">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Hero />
+                <Projects projects={projects} />
+                <Experience experience={experience} />
+                <Skills />
+              </>
+            } />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </ThemeProvider>
   );
 }
 

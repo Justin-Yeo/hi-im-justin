@@ -17,11 +17,17 @@
 .code-card {
   display: flex;
   flex-direction: column;
-  background: #161a1f;
+  background: var(--card-bg);
   border: 1px solid var(--terminal-border);
   border-radius: 4px;
   min-height: 300px; /* Set a minimum height */
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.code-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px var(--shadow-color);
 }
 
 .card-content {
@@ -54,7 +60,7 @@
 
 .card-footer {
   padding: 1rem 1.5rem;
-  background: #1a1f26;
+  background: var(--hover-bg);
   border-top: 1px solid var(--terminal-border);
   flex-shrink: 0; /* Prevents footer from shrinking */
 }

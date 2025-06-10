@@ -1,3 +1,5 @@
+import ThemeToggle from './ThemeToggle';
+
 export default function Navbar() {
   return (
     <nav className="terminal-nav">
@@ -6,6 +8,7 @@ export default function Navbar() {
         <a href="/#projects" className="nav-link">projects</a>
         <a href="/#experience" className="nav-link">experience</a>
         <a href="/#skills" className="nav-link">skills</a>
+        <ThemeToggle />
       </div>
     </nav>
   );

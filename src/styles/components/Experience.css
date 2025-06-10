@@ -10,15 +10,17 @@
 }
 
 .experience-card {
-  background: #161a1f;
+  background: var(--card-bg);
   border: 1px solid var(--terminal-border);
   border-radius: 4px;
   padding: 1.5rem;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .experience-card:hover {
   transform: translateY(-3px);
+  box-shadow: 0 4px 12px var(--shadow-color);
 }
 
 .experience-header {

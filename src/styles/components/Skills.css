@@ -16,15 +16,17 @@
   align-items: center;
   gap: 1rem;
   padding: 1.5rem;
-  background: #161a1f;
+  background: var(--card-bg);
   border: 1px solid var(--terminal-border);
   border-radius: 4px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
   border-color: var(--terminal-green);
+  box-shadow: 0 4px 12px var(--shadow-color);
 }
 
 .skill-logo {
@@ -55,10 +57,11 @@
 }
 
 .skill-category {
-  background: #161a1f;
+  background: var(--card-bg);
   border: 1px solid var(--terminal-border);
   border-radius: 8px;
   padding: 1.5rem;
+  box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .category-title {

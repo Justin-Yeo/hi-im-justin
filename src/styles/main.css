@@ -8,6 +8,7 @@
 @import './components/Experience.css';
 @import './components/Skills.css';
 @import './components/Footer.css';
+@import './components/ThemeToggle.css';
 
 @import './utilities/animations.css';
 @import './utilities/responsive.css'; 

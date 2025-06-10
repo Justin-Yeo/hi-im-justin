@@ -8,7 +8,15 @@
   color: var(--terminal-green);
   font-size: 2.5rem;
   margin-bottom: 1rem;
+}
+
+/* Theme-specific text shadows */
+[data-theme="dark"] .hero-title {
   text-shadow: 0 0 8px rgba(0, 255, 157, 0.3);
+}
+
+[data-theme="light"] .hero-title {
+  text-shadow: 0 0 8px rgba(0, 179, 119, 0.2);
 }
 
 .hero-subtitle {

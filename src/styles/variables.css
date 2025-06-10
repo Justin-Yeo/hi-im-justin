@@ -1,7 +1,22 @@
-:root {
+:root,
+[data-theme="dark"] {
   --terminal-green: #00ff9d;
   --terminal-bg: #0a0e14;
   --terminal-text: #c7c7c7;
   --terminal-border: #2b303b;
   --terminal-accent: #ff7edb;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --card-bg: #14171f;
+  --hover-bg: #2a3040;
+}
+
+[data-theme="light"] {
+  --terminal-green: #00b377;
+  --terminal-bg: #ffffff;
+  --terminal-text: #1a202c;
+  --terminal-border: #e2e8f0;
+  --terminal-accent: #d53f8c;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+  --card-bg: #f8fafc;
+  --hover-bg: #edf2f7;
 } 
