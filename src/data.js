@@ -47,7 +47,7 @@ export const projects = [
 export const experience = [
   {
     company: "Credit Agricole Corporate and Investment Bank",
-    role: "Software Engineer",
+    role: "Software Engineer Intern",
     duration: "Jul 2025 - Present",
     description: "Developing a dashboard with React & FastAPI for the tracking of deployments."
   },
