@@ -30,6 +30,7 @@
           { name: 'Github', logo: '/logos/github.svg' },
           { name: 'AWS (Still learning)', logo: '/logos/aws.svg' },
           { name: 'Docker', logo: '/logos/docker.svg' },
+          { name: 'Kubernetes', logo: '/logos/kubernetes.svg' },
           { name: 'Unity', logo: '/logos/unity.svg' },
         ]
       }

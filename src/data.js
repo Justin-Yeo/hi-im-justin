@@ -46,9 +46,15 @@ export const projects = [
   
 export const experience = [
   {
+    company: "Credit Agricole Corporate and Investment Bank",
+    role: "Software Engineer",
+    duration: "Jul 2025 - Present",
+    description: "Developing a dashboard with React & FastAPI for the tracking of deployments."
+  },
+  {
     company: "Google Developer Student Club NUS",
     role: "Software Engineer",
-    duration: "Sep 2024 - Present",
+    duration: "Sep 2024 - May 2025",
     description: "Developed a full-stack web app with React & TypeScript for OSCAS for sponsorship, adoption, and volunteer management, reducing manual workloads."
   },
   {
