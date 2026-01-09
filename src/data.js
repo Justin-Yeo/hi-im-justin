@@ -45,11 +45,17 @@ export const projects = [
 
   
 export const experience = [
+   {
+    company: "GovTech",
+    role: "Software Engineer Intern",
+    duration: "Jan 2026 - Present",
+    description: "Working on CLOAK - The Central Privacy Toolkit for Singapore Public Sector."
+  },
   {
     company: "Credit Agricole Corporate and Investment Bank",
     role: "Software Engineer Intern",
-    duration: "Jul 2025 - Present",
-    description: "Developing a dashboard with React & FastAPI for the tracking of deployments."
+    duration: "Jul 2025 - Dec 2025",
+    description: "Developing a dashboard with React & FastAPI for deployment management."
   },
   {
     company: "Google Developer Student Club NUS",
