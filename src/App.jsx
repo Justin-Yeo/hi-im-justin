@@ -19,8 +19,8 @@ function App() {
             <Route path="/" element={
               <>
                 <Hero />
-                <Projects projects={projects} />
                 <Experience experience={experience} />
+                <Projects projects={projects} />
                 <Skills />
               </>
             } />
